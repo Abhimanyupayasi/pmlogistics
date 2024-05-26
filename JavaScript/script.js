@@ -1,3 +1,4 @@
+// we are taking for gsap animation
 const one = document.querySelector(".menu-bar");
 
 const two = document.querySelector(".menu-bar1");
