@@ -42,11 +42,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var password = document.getElementById("password").value;
 
     // Check if the provided username and password match the specified conditions
-    if ((username === "punitmishra" && password === "punit@123") ||
-        (username === "abhimanyupayasi" && password === "abhi@2004") ||
-        (username === "vivekpayasi" && password === "vivek@2006") ||
-        (username === "anuragpayasi" && password === "anurag@123") ||
-        (username === "extrauser" && password === "pmlogistics@123") 
+    if ((username === "punitmishra" && password === "punitmishra") ||
+        (username === "abhimanyupayasi" && password === "abhimanyupayasi") ||
+        (username === "vivekpayasi" && password === "vivekpayasi") ||
+        (username === "anuragpayasi" && password === "anuragpayasi") ||
+        (username === "extrauser" && password === "pmlogistics") 
     ) {
         // Redirect to the next page if the conditions are met
         window.location.href = "../dashboard/?username=" + encodeURIComponent(username);
